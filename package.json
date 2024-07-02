@@ -1,7 +1,4 @@
 {
-  "name": "summarize-page",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +6,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@langchain/community": "^0.2.16",
+    "@langchain/core": "^0.2.11",
+    "@langchain/openai": "^0.2.1",
+    "@mui/material": "^5.15.21",
+    "@supabase/supabase-js": "^2.44.2",
+    "axios": "^1.7.2",
+    "langchain": "^0.2.8",
+    "openai": "^4.52.2",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
